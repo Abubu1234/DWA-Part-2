@@ -1,4 +1,4 @@
- ReactDOM.render(<h1 className="header">This is a declarative way to program</h1>, document.getElementById("root"))
+ReactDOM.render(<h1 className="header">This is a declarative way to program</h1>, document.getElementById("root"))
 
 /* 
 Challenge - recreate the above line of code in vanilla JS by creating and
@@ -17,4 +17,4 @@ appending an h1 to our div#root (without using innerHTML).
 // h1.textContent = "This is an imperative way to program"
 // h1.className = "header"
 // // document.querySelector("#root").appendChild(h1) it can also be done this way
-// document.getElementById("root").appendChild(h1)
+// document.getElementById("root").appendChild(h1) 
